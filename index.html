@@ -1,0 +1,53 @@
+<!-- I learned HTML and CSS from Mozilla's Creative Commons Guide:-->
+<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure -->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <link id="mainStyleSheet" href="styles/primary.css" rel="stylesheet">
+   <script src="scripts/style-toggle.js" defer></script>
+   <title>Landing</title>
+</head>
+
+<body>
+   <nav>
+      <ul>
+         <li><a class="on" title="Landing Page">Home</a></li>
+         <li><a href="portfolio.html" title="Portfolio of Work">Portfolio</a></li>
+         <li><a href="resume.html" title="Qualifications">Qualifications</a></li>
+         <li><a href="service.html" title="Service">Service</a></li>
+      </ul>
+   </nav>
+   <h1>Howdy.</h1>
+   <main>
+      <aside>
+         <img src="images/render.png"
+            alt="OpenGL Defered Renderer Still Image: 3D objects transformed with dynamic lighting">
+      </aside>
+      <article>
+         <p>Hi, I'm Peter Castelein. Welcome to my portfolio. I am finishing a Bachelor of Science in Computer Science
+            at <a href="https://www.tamu.edu/" title="A&M homepage">Texas A&amp;M
+               University</a>.</p>
+         <p>Computing has been a passion since first dusting off an ancient Apple II in my parent's basement and firing
+            up BASIC. I love writing efficient software and tackling technical puzzles through mathematics and
+            engineering.</p>
+         <h3>Excellent Course Webpages</h3>
+         <ul>
+            <li><a href="https://people.engr.tamu.edu/sueda/courses/CSCE441/2022S/index.html">CSCE: 441</a> Graphics
+               with Dr. Sueda</li>
+            <li><a href="https://irl.cse.tamu.edu/courses/">CSCE: 463</a> Networking with Dr. Loguinov</li>
+            <li><a href="https://people.engr.tamu.edu/sueda/courses/CSCE450/2022F/index.html">CSCE: 450</a> Animation
+               with Dr. Sueda</li>
+         </ul>
+      </article>
+   </main>
+   <footer>
+      <div class="padder"></div>
+      <a class="toggle" onclick="toggleStyleSheet()" title="Style Toggle">Style//Toggle</a>
+      <p>©Copyright 2022 by Peter Castelein. All rights reserved.</p>
+   </footer>
+</body>
+
+</html>

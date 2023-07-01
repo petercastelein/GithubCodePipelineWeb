@@ -1,0 +1,226 @@
+/* I learned HTML and CSS from Mozilla's Creative Commons Guide:
+   https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure */
+
+/* setup */
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+html,
+video {
+   max-width:100%;
+   height:auto;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-family: 'Roboto', sans-serif;
+   font-size: 10px;
+   background-color: black;
+}
+
+body {
+   width: 80%;
+   margin: 0 auto;
+}
+
+a:link {
+   color: #00CC99;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+a:visited {
+   color: #009966;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+   background-color: transparent;
+   text-decoration: underline;
+}
+
+/* type set */
+h1 {
+   font-size: 6rem;
+   text-align: center;
+
+   margin: 0;
+   padding: 20px 0;
+   color: white;
+   text-shadow: 3px 3px 1px #009966;
+}
+
+h2 {
+   font-size: 3.5rem;
+   margin: 0;
+   padding-top: 20px;
+   padding-left: 10px;
+   color: white;
+   text-shadow: 2px 2px 1px #009966;
+}
+
+h3 {
+   font-size: 2.5rem;
+   margin: 0;
+   padding-top: 20px;
+   padding-left: 10px;
+   color: white;
+   text-shadow: 2px 2px 1px #009966;
+}
+
+h4 {
+   font-size: 2rem;
+   text-align: center;
+
+   margin: 0;
+   padding: 20px 0;
+   color: white;
+}
+
+p,
+li {
+   color: white;
+   font-size: 1.8rem;
+   line-height: 2;
+   letter-spacing: 1px;
+}
+
+li {
+   color: white;
+   padding-left: 10px;
+}
+
+/* header */
+
+nav,
+article,
+aside,
+footer {
+   font-size: 16px;
+   padding: 1%;
+}
+
+nav {
+   float: right;
+   clear: both
+}
+
+nav ul {
+   padding: 0;
+   list-style-type: none;
+   flex: 2;
+}
+
+nav li {
+   text-align: left;
+   flex: 1;
+}
+
+nav a {
+   font-size: 2rem;
+}
+
+nav a:visited {
+   color: #00CC99;
+   background-color: transparent;
+}
+
+.on {
+   text-decoration: underline;
+}
+
+/* main */
+
+article {
+   float: left;
+   flex: 2;
+   margin-left: 10px;
+}
+
+article img {
+   margin-top: 15px;
+}
+
+aside {
+   float: left;
+   flex: 3;
+   margin-top: 15px;
+}
+
+aside h2 {
+   font-size: 3.5rem;
+   margin: 0;
+   padding-top: 0px;
+   padding-left: 0px;
+   color: white;
+   text-shadow: 2px 2px 1px #009966;
+}
+
+aside h3 {
+   padding: 0px;
+   font-size: 2.4rem;
+   margin: 0;
+   color: white;
+   text-shadow: 1px 1px 1px #009966;
+}
+
+aside ul {
+   padding-left: 15px;
+}
+
+footer {
+   clear: both;
+   text-align: center;
+   margin-top: 10px;
+}
+
+footer p {
+   color: white;
+   font-size: 1.6rem;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.toggle {
+   font-size: 2.5rem;
+   margin-top: 5px;
+   padding: 5px 5px 5px 5px;
+   color: white;
+   text-shadow: 1px 1px 1px #009966;
+   border-style:dashed;
+   border-width: 2px;
+   border-color: white;
+   cursor: pointer;
+}
+
+.toggle:hover,
+.toggle:focus,
+.toggle:active {
+   background-color: transparent;
+   text-decoration: underline;
+   border-style: solid;
+}
+
+.padder {
+   padding-top: 10px;
+}
+
+.center {
+   text-align: center;
+}
+
+article .padder {
+   padding-top: 80px;
+}
+
+img {
+
+   width: 50%;
+   margin: 0;
+   padding-left: 25%;
+}
