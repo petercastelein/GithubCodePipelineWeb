@@ -1,4 +1,4 @@
-# GithubCodePipelineWeb
+# Github -> CodePipeline Website
 CSCE 412: Project 3 - Phase 2
 
 All files contained in this repository function as a personal website.
